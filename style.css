@@ -1,0 +1,107 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+    padding: 16px;
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#menu {
+    background-color: lightseagreen;
+    padding: 10px;
+    text-align: right;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.topLinks:hover {
+    color: rgb(8, 46, 85)
+}
+
+#welcome {
+    /*display: flex; 
+    justify-content: space-around;*/
+    background-color:rgb(8, 46, 85);
+    padding: 30px;
+}
+
+#hi {
+    width: 60%;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+#description {
+    width: 60%;
+    justify-self: flex-start;
+    align-self: flex-end;
+    color: white;
+}
+
+h1 {
+    color: lightseagreen;
+    text-align: left
+}
+
+#headshotDiv {
+    width: 30%;
+    justify-self: end;
+}
+
+#headshot {
+    width: 200px;
+}
+
+h2 {
+    color: lightseagreen;
+    text-align: center;
+}
+
+#personality {
+    display: flex; 
+    justify-content: space-around;
+    color: rgb(8, 46, 85);
+    text-align: center;
+}
+
+#strengths {
+    width: 33%;
+    border-style: solid;
+    border-color: lightslategray;
+}
+
+#enneagram {
+    width: 33%;
+    border-style: solid;
+    border-color: lightslategray;
+}
+
+#mbti {
+    width: 33%;
+    border-style: solid;
+    border-color: lightslategray;
+}
+
+
+#footer {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: rgb(8, 46, 85)
+}
+
+.bottomLinks:hover {
+    color: rgb(8, 46, 85)
+}
