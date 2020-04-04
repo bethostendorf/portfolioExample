@@ -31,27 +31,32 @@ a:visited {
     padding: 30px;
 }
 
+/*#info {
+}*/
+
 #hi {
     width: 60%;
-    justify-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
     align-self: flex-start;
 }
 
 #description {
     width: 60%;
-    justify-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
     align-self: flex-end;
     color: white;
 }
 
 h1 {
     color: lightseagreen;
-    text-align: left
 }
 
 #headshotDiv {
     width: 30%;
-    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #headshot {
@@ -68,6 +73,16 @@ h2 {
     justify-content: space-around;
     color: rgb(8, 46, 85);
     text-align: center;
+}
+
+/*@media screen and (max-width: 600px) {
+    .types {
+        width: 100%;
+    }
+}*/
+
+.personalityLinks:hover {
+    color: rgb(8, 46, 85)
 }
 
 #strengths {
